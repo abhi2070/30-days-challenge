@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 217, 218);
+}
+button{
+    color: white;
+    background-color: black;
+    border: 0px solid black;
+}
+#headerimage{
+    position: relative;
+}
+#mainheading{
+     position:absolute;
+     top: 150px;
+     left: 40px;
+     color: whitesmoke;
+     font-size: 80px;    
+}
+#mainbutton{
+    position:absolute;
+     top: 420px;
+     left: 40px;
+     font-size: 30px;
+     padding: 15px;
+     border-radius: 4px;
+}
+h2{
+    font-size: 45px;
+
+    padding-left: 80px;
+   
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 360px auto ;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+.grid-container > div > p{
+    font-size: 23px;
+}
+.grid-container > div > pre{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(168, 190, 212);
+}
+section{
+    position: relative;
+}
+#ourteam{
+    position:absolute;
+    left: 1030px;
+    top: 100px;
+    font-size: 30px;
+}
+section{
+    padding-top: 70px;
+}
+section> #first{
+    padding-left: 240px;
+    height: 600px;
+    width: 700px;
+}
+section> #second{
+    padding-left: 30px;
+    height: 500px;
+    width: 500px;
+}
+section> #hiring{
+    position: absolute;
+    top: 700px;
+    left: 240px;
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 4px;
+}
+section> #third{
+    padding-left: 700px;
+    padding-top: 20px;
+    height: 600px;
+    width: 1200px;
+}
+.clint{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.clint > #ourclint{
+    font-size: 30px;
+}
+.clint > #work{
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(168, 190, 212);
+}
+.clint{
+    position: relative;
+}
+#google{
+    position: absolute;
+    left: 1100px;
+    top: 60px;
+}
+#instagram{
+    position: absolute;
+    left: 1100px;
+    top: 170px;
+}
+#facebook{
+    position: absolute;
+    left: 900px;
+    top: 60px;
+}
+#youtube{
+    position: absolute;
+    left: 900px;
+    top: 170px;
+}
+#apple{
+    position: absolute;
+    left: 900px;
+    top: 290px;
+}
+#twitch{
+    position: absolute;
+    left: 1100px;
+    top: 290px;
+}
+.touch{
+   position: relative; 
+}
+.touch > #let{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 600;
+}
+.touch > #intouch{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 4px;
+}
+footer{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 50px;
+}
+button:hover{
+    cursor: grabbing;
+    background-color: gray;
+}
+i:hover{
+    cursor: grabbing;
+}
