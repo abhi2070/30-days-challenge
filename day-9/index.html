@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <header>
+        <p>Payment Form</p>
+    </header>
+    <section class="container">
+        <form>
+            <fieldset>
+                <h1>User details</h1>
+                <p> Name:<br><input type="text" name="name" id="name" placeholder="Enter your name" required></p>
+                <p>email:<br> <input type="email" name="email" id="email" placeholder="Enter a valid email ID" required>
+                </p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    Male:<input type="checkbox" id="male">
+                    Female: <input type="checkbox" id="female">
+                </fieldset>
+                <p> Address:<br> <textarea name="address" id="address" cols="30" rows="10"
+                        placeholder="Enter your Address"></textarea></p>
+                <p> Pin code:<br> <input type="number" name="Pin" id="Pin" placeholder="454545" required></p>
+                <p> Mobile no: <br><input type="number" name="Mobile" id="Mobile" placeholder="+91" required></p>
+                <hr>
+                <h1>Payment details</h1>
+                <p>Card type: <br>
+                    <select name="cdtype" id="cdtype">
+                        <option value=" ">select a Card</option>
+                        <option value="Visa">Visa</option>
+                        <option value="Rupay">Rupay</option>
+                        <option value="master">Master Cared</option>
+                    </select>
+                </p>
+                <p>Card number:<br><input type="number" name="cdnum" id="cdnum" placeholder="1234-4567-6789" required>
+                </p>
+                <p>Exp Date: <br><input type="date" name="date" id="date" required></p>
+                <p>CVV: <br> <input type="password" name="cvv" id="cvv" placeholder="123" required></p>
+                <hr>
+                <div id="btn">
+                    <button id="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>

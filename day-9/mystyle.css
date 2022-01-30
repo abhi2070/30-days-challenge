@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(202, 248, 234);
+    margin: 0px;
+}
+header{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgreen;
+}
+.container{
+   margin: 100px;
+   font-size: 20px;
+}
+#name,
+#email,
+#address
+{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    border: 0px solid black;
+}
+#name,
+#email,
+#Pin,
+#Mobile{
+     height: 50px;
+}
+#Pin,
+#Mobile{
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+    border: 0px solid black;
+}
+fieldset{
+    padding: 20px;
+    border-radius: 5px;
+}
+#male,
+#female{
+    margin: 10px;
+}
+#male,
+#female:hover{
+     cursor: grab;
+} 
+#cdtype,
+#cdnum{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    border: 0px solid black;
+    height: 50px;
+}
+#date,
+#cvv{
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+    border: 0px solid black;
+    height: 50px;
+}
+#date,
+#cdtype:hover{
+   cursor: grab;
+}
+#submit{
+    border: 0px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: lightgreen;
+}
+#btn{
+    text-align: center;
+}
+#submit:hover{
+     cursor: grab;
+     background-color: darkgreen;
+}
