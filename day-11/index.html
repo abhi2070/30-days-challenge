@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Notes</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1 style="font-size: 25px; font-weight: 400;">Keep Notes</h1>
+            </li>
+            <li>
+                <h5 style="font-size: 18px; font-weight: 100;"> | Home</h5>
+            </li>
+            <li>
+                <form id="form">
+                    <input type="text" id="input" placeholder="search">
+                    <button>Search</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="container">
+        <fieldset>
+            <legend id="heading">Keep Your Notes</legend>
+            <textarea class="form-control" placeholder="Add notes" rows="5" name="message" id="message"></textarea>
+            <button id="addbtn">Add Note</button>
+        </fieldset>
+        <br>
+        <br>
+        <h1>Your Notes</h1>
+        <hr>
+        <br>
+        <div id="notes" class="row container-fluid">
+
+        </div>
+    </header>
+</body>
+<script src="javascript.js"></script>
+</html>
