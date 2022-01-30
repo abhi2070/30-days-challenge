@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 70px;
+    text-align: right;
+    color: white;
+    padding-top: 60px;
+    padding-right: 70px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    background-color: rgb(33, 33, 39);
+    padding-bottom: 150px;
+    height: 900px;
+}
+.box{
+    z-index: 1;
+    position: absolute;
+    top: 140px;
+    left: 600px;
+    border: 0px solid white;
+    width: 290px;
+    height: 700px;
+    background-color: rgb(255, 134, 112);
+}
+img{
+    z-index: 2;
+    position:absolute;
+    left: 500px;
+}
+.carousel {
+   z-index: 3;
+   position: absolute;
+   top: 160px;
+   left: 195px;
+   background:white;
+   width: 450px;
+   height: 300px;
+   font-size: 17px;
+   text-align: center;
+ }
+.carousel-cell{
+   border: 0px solid white;
+   padding: 20px;
+   margin: 20px;
+   width: 350px;
+   height: 300px;
+   font-size: 17px;
+   text-align: center;
+ } 
+footer{
+    background-color: rgb(58, 57, 57);
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding: 60px;
+   /* margin-top: 10px ;*/
+}
+@media only screen and (max-width: 800px){
+    section {
+        position: relative;
+        background-color: rgb(33, 33, 39);
+        padding-bottom: 150px;
+        height: 900px;
+        width: 810px;
+    }
+    img{
+        z-index: 2;
+        position:absolute;
+        left: 200px;
+    }
+    .box{
+        z-index: 1;
+        position: absolute;
+        top: 140px;
+        left: 560px;
+        border: 0px solid white;
+        width: 290px;
+        height: 700px;
+        background-color: rgb(255, 134, 112);
+    }
+    .carousel {
+        z-index: 3;
+        position: absolute;
+        top: 500px;
+        left: 120px;
+        background:white;
+        width: 450px;
+        height: 300px;
+        font-size: 17px;
+        text-align: center;
+      }
+     .carousel-cell{
+        border: 0px solid white;
+        padding: 20px;
+        margin: 20px;
+        width: 350px;
+        height: 300px;
+        font-size: 17px;
+        text-align: center;
+      }
+      footer{
+        background-color: rgb(58, 57, 57);
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        padding: 60px;
+        width: 810px;
+       /* margin-top: 10px ;*/
+    } 
+}
+@media only screen and (max-width: 430px){
+    section {
+        position: relative;
+        background-color: rgb(33, 33, 39);
+        padding-bottom: 150px;
+        height: 1400px;
+        width: 810px;
+    }
+    img{
+        z-index: 2;
+        position:absolute;
+        left: 100px;
+        top: 300px;
+    }
+    .box{
+        z-index: 1;
+        position: absolute;
+        top: 160px;
+        left: 460px;
+        border: 0px solid white;
+        width: 290px;
+        height: 1100px;
+        background-color: rgb(255, 134, 112);
+    }
+    .carousel {
+        z-index: 3;
+        position: absolute;
+        top: 750px;
+        left: 120px;
+        background:white;
+        width: 450px;
+        height: 300px;
+        font-size: 17px;
+        text-align: center;
+      }
+     .carousel-cell{
+        border: 0px solid white;
+        padding: 20px;
+        margin: 20px;
+        width: 350px;
+        height: 300px;
+        font-size: 17px;
+        text-align: center;
+      }
+      footer{
+        background-color: rgb(58, 57, 57);
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        padding: 60px;
+        width: 810px;
+       /* margin-top: 10px ;*/
+    } 
+}
+@media only screen and (max-width: 430px){
+    section {
+        position: relative;
+        background-color: rgb(33, 33, 39);
+        padding-bottom: 150px;
+        height: 1800px;
+        width: 810px;
+    }
+      footer{
+        background-color: rgb(58, 57, 57);
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        padding: 60px;
+        width: 810px;
+       /* margin-top: 10px ;*/
+    } 
+}
