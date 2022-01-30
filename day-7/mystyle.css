@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+    position: relative;
+}
+.fixed{
+    z-index: 10;
+    position: sticky;
+    top: 0px;
+    border: 0px solid blueviolet;
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+#title{
+    font-family: Courier New, Courier, monospace;
+    padding-left: 170px;
+}
+#links li{
+    display: inline;
+    padding-left: 30px; 
+}
+#links{
+    position: absolute;
+    padding-left: 550px;
+    padding-top: 10px;
+}
+#links li a{
+    text-decoration: none;
+    color: black;
+}
+#links li a:hover{
+    cursor: grab;
+    color: cornflowerblue;
+}
+#heading{
+   z-index: 1;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: Courier New, Courier, monospace;
+   text-align: center;
+   transform: translatex(-50%);
+   top: 15vw;
+}
+#myVideo{
+    top: 100px;
+    right: 0;
+    width: 100%; 
+    min-height: 600px;
+}
+button{
+    border: 0px solid black;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 20px;
+}
+button:hover{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: black;
+    cursor: grab;
+}
+#bbox{
+    z-index: 1;
+    border: 0px solid black;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+#box1{
+       position: absolute;
+       left: 150px;
+       border: 0px solid black;
+       width: 400px;
+       height: 500px;
+}
+#btn1{
+    border: 0px solid black;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+#btn1:hover{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: black;
+    cursor: grab;   
+}
+#image1{
+    position: absolute;
+    left: 700px;
+    width: 560px;
+    height: 600px;
+}
+#backgroundimg{
+    width: 100%;
+    height: 900px;
+}
+#box2,
+#box3,
+#box4{
+    position: absolute;
+    /*top: 10px;*/
+    text-align: center;
+    border: 5px solid black;
+    width: 300px;
+    height: 450px;
+}
+#box2{
+    top: 1700px;
+     left: 130px;
+}
+#box3{
+    top: 1700px;
+    left: 480px;
+}
+#box4{
+    top: 1700px;
+    left: 830px;
+}
+#btn6{
+    position: absolute;
+    left: 530px;
+    top: 2200px;
+    border: 0px solid black;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: whitesmoke;   
+}
+#btn6:hover{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: black;
+    cursor: grab; 
+}
+#bbox2{
+    border: 0px solid black;
+    width: 100%;
+    height: 800px;
+
+    background-color: rgb(130, 177, 221);
+}
+#contact{
+    position: absolute;
+    top: 2400px;
+    left: 130px;
+    border: 0px solid black;
+    height: 400px;
+    width: 200px;
+}
+#contform{
+    position: absolute;
+    top: 2450px;
+    left: 700px;
+    background-color: rgb(130, 177, 221);
+}
+#name,
+#email,
+#subject,
+#message{
+    border: 2px solid black;
+    height: 36px;
+    width: 400px;
+    background-color: rgb(130, 177, 221);
+}
+#message{
+    height: 170px;
+}
