@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    margin: 0px;
+    background-color: rgb(179, 235, 235);
+}
+.head{
+    font-size: 60px;
+    font-weight: 900;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    text-shadow: 2px 2px 4px #1b0202;
+}
+.box{
+    border: 3px solid black;
+    width: 250px;
+    height: 700px;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+}
+.mediaicon{
+    position:absolute;
+    right: 30px;
+    top: 600px;
+    padding: 40px;
+    color:white;
+}
+.image{
+    position: absolute;
+    right: 20px;
+    top: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.856), 0 6px 20px 0 rgba(0, 0, 0, 0.657);
+    border-radius: 4px;
+}
+.box2{
+    border: 0px solid rgb(131, 64, 64);
+    height: 400px;
+    width: 510px;
+    position: absolute;
+    left: 120px;
+    top: 220px;
+}
+.box2>p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+#message{
+    height: 150px;
+    width: 505px;
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 4px
+}
+#email,
+#fname{
+    height: 40px;
+    width: 250px;
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 4px;
+}
+#but{
+    background-color: black;
+    color: white;
+    border: 0px solid black;
+    width: 100px;
+    padding: 15px;
+    border-radius: 4px;
+}
+.foot{
+    z-index: 3;
+    position: absolute;
+    top: 690px;
+    width: 100%;
+    padding: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#but:hover{
+       background-color: rgb(29, 39, 29);
+       box-shadow: 0 4px 8px 0 rgba(15, 15, 15, 0.616), 0 6px 20px 0 rgba(0, 0, 0, 0.644);
+       cursor: grab;
+}
+.mediaicon:hover{
+    position:absolute;
+    right: 30px;
+    top: 600px;
+    padding: 40px;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(3, 8, 47, 0.671), 0 6px 20px 0 rgba(9, 5, 65, 0.644);
+    cursor: grab;
+}
